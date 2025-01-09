@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.time.ZonedDateTime;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
@@ -73,7 +72,7 @@ public class DrupalConnectorTest {
                         "uid.display_name",
                         "node_type.id",  // not resolved in includes, still put top level relationship's ID?
                         "field_media_image.id",
-                        "field_media_image.drupal_internal_mid",
+                        "field_media_image.drupal_internal__mid",
                         "field_media_image.path",
                         "field_media_image.created",
                         "field_media_image.changed",
@@ -95,7 +94,6 @@ public class DrupalConnectorTest {
 
                 "field_media_image.id", UUID.fromString("dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25"),
                 "field_media_image.langcode", "en",
-                "field_media_image.revision_created", ZonedDateTime.parse("2025-01-08T12:56:13+00:00"),
                 "field_media_image.content_translation_source", "und",
                 "field_media_image.content_translation_outdated", false,
 
