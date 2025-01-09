@@ -1,0 +1,593 @@
+{
+  "jsonapi": {
+    "version": "1.0",
+    "meta": {
+      "links": {
+        "self": {
+          "href": "http://jsonapi.org/format/1.0/"
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "type": "node--article",
+      "id": "f0f7c2cf-b860-4969-9594-63086a37766a",
+      "links": {
+        "self": {
+          "href": "http://localhost:8080/en/jsonapi/node/article/f0f7c2cf-b860-4969-9594-63086a37766a?resourceVersion=id%3A28"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 14,
+        "drupal_internal__vid": 28,
+        "langcode": "en",
+        "revision_timestamp": "2025-01-08T12:56:13+00:00",
+        "status": true,
+        "title": "The Umami guide to our favorite mushrooms",
+        "created": "2025-01-08T12:56:13+00:00",
+        "changed": "2025-01-08T12:56:13+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": null,
+        "moderation_state": "published",
+        "path": {
+          "alias": "/articles/the-umami-guide-to-our-favourite-mushrooms",
+          "pid": 93,
+          "langcode": "en"
+        },
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": {
+          "value": "<p>We think mushrooms are one of the most enjoyable ingredients to cook with. There are plenty of edible varieties to try, each with their own distinctive shape, size, and taste. And with curious names such as chanterelle, the gypsy, horn of plenty, or hen of the woods, who wouldn't want to know more about cooking with the mighty mushroom?</p>\n<p>One of the best things about mushrooms is their versatility. They can be fried, roasted, grilled, steamed, or even cooked in the microwave. And they can be served as the main ingredient for a dish, or simply added as part of the mix. This makes mushrooms an ideal choice for creating absolutely delicious vegetarian dishes.</p>\n<p>So let's take a look at some of our favorite types of mushroom. You might not have tried cooking with them before but don't let that put you off. With their delicious, distinctive flavors you can easily transform soups, starters, sauces and create amazing pasta, or stir-fry dishes.</p>\n<p>Try the lovely <strong>shiitake</strong>. Used in Asian cooking, these can be purchased dried and rehydrated for a strong, deep flavor. Or buy fresh and add to soups and stir-fries. Not only does this mushroom have an intense flavor, it looks lovely too. The deep brown and smooth shapes will provide texture to your meal. In their dried form and rehydrated, these are the perfect addition for a deep and flavorful stock for a risotto.</p>\n<p>The gorgeous sunny <strong>chanterelle</strong> with its yellow flesh has a fruity flavor - but it is worth mentioning that there are many lookalikes out there and care should be taken to ensure you're eating the right ones. These look great in an omelette or an Asian soup to complement the yellow tones.</p>\n<p>The brown <strong>morel</strong> offers a meaty and distinctive flavor and you'll probably love how extraordinary they look in a meal. The morel is a more popular mushroom during the spring, when their availability is high.</p>\n<p>For delicacy try the <strong>enoki</strong> with its tiny white heads that grow in a bunch. These can even be eaten raw in salads. Finally, you can choose the popular <strong>oyster</strong> mushroom. They are named thus because they look nothing like a mushroom and resemble the innards of an oyster and their sweet flavor is delicious.</p>\n",
+          "format": "basic_html",
+          "processed": "<p>We think mushrooms are one of the most enjoyable ingredients to cook with. There are plenty of edible varieties to try, each with their own distinctive shape, size, and taste. And with curious names such as chanterelle, the gypsy, horn of plenty, or hen of the woods, who wouldn't want to know more about cooking with the mighty mushroom?</p>\n<p>One of the best things about mushrooms is their versatility. They can be fried, roasted, grilled, steamed, or even cooked in the microwave. And they can be served as the main ingredient for a dish, or simply added as part of the mix. This makes mushrooms an ideal choice for creating absolutely delicious vegetarian dishes.</p>\n<p>So let's take a look at some of our favorite types of mushroom. You might not have tried cooking with them before but don't let that put you off. With their delicious, distinctive flavors you can easily transform soups, starters, sauces and create amazing pasta, or stir-fry dishes.</p>\n<p>Try the lovely <strong>shiitake</strong>. Used in Asian cooking, these can be purchased dried and rehydrated for a strong, deep flavor. Or buy fresh and add to soups and stir-fries. Not only does this mushroom have an intense flavor, it looks lovely too. The deep brown and smooth shapes will provide texture to your meal. In their dried form and rehydrated, these are the perfect addition for a deep and flavorful stock for a risotto.</p>\n<p>The gorgeous sunny <strong>chanterelle</strong> with its yellow flesh has a fruity flavor - but it is worth mentioning that there are many lookalikes out there and care should be taken to ensure you're eating the right ones. These look great in an omelette or an Asian soup to complement the yellow tones.</p>\n<p>The brown <strong>morel</strong> offers a meaty and distinctive flavor and you'll probably love how extraordinary they look in a meal. The morel is a more popular mushroom during the spring, when their availability is high.</p>\n<p>For delicacy try the <strong>enoki</strong> with its tiny white heads that grow in a bunch. These can even be eaten raw in salads. Finally, you can choose the popular <strong>oyster</strong> mushroom. They are named thus because they look nothing like a mushroom and resemble the innards of an oyster and their sweet flavor is delicious.</p>\n",
+          "summary": null
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "060d1142-7036-4041-bb1f-60ca53bd0db7",
+            "meta": {
+              "drupal_internal__target_id": "article"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/f0f7c2cf-b860-4969-9594-63086a37766a/node_type?resourceVersion=id%3A28"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/f0f7c2cf-b860-4969-9594-63086a37766a/relationships/node_type?resourceVersion=id%3A28"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "3a577e34-2a6a-4ed1-acb3-de923de6a313",
+            "meta": {
+              "drupal_internal__target_id": 6
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/f0f7c2cf-b860-4969-9594-63086a37766a/revision_uid?resourceVersion=id%3A28"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/f0f7c2cf-b860-4969-9594-63086a37766a/relationships/revision_uid?resourceVersion=id%3A28"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "3a577e34-2a6a-4ed1-acb3-de923de6a313",
+            "meta": {
+              "drupal_internal__target_id": 6
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/f0f7c2cf-b860-4969-9594-63086a37766a/uid?resourceVersion=id%3A28"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/f0f7c2cf-b860-4969-9594-63086a37766a/relationships/uid?resourceVersion=id%3A28"
+            }
+          }
+        },
+        "field_media_image": {
+          "data": {
+            "type": "media--image",
+            "id": "dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25",
+            "meta": {
+              "drupal_internal__target_id": 13
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/f0f7c2cf-b860-4969-9594-63086a37766a/field_media_image?resourceVersion=id%3A28"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/f0f7c2cf-b860-4969-9594-63086a37766a/relationships/field_media_image?resourceVersion=id%3A28"
+            }
+          }
+        },
+        "field_tags": {
+          "data": [
+            {
+              "type": "taxonomy_term--tags",
+              "id": "a1966d85-6978-4e4c-8d2c-27ef7f9bd4c2",
+              "meta": {
+                "drupal_internal__target_id": 18
+              }
+            },
+            {
+              "type": "taxonomy_term--tags",
+              "id": "9cbb0df3-60c4-461c-bd77-c85989ba6924",
+              "meta": {
+                "drupal_internal__target_id": 28
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/f0f7c2cf-b860-4969-9594-63086a37766a/field_tags?resourceVersion=id%3A28"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/f0f7c2cf-b860-4969-9594-63086a37766a/relationships/field_tags?resourceVersion=id%3A28"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--article",
+      "id": "14650b8c-2af3-4e77-88f3-ea6a57e04a89",
+      "links": {
+        "self": {
+          "href": "http://localhost:8080/en/jsonapi/node/article/14650b8c-2af3-4e77-88f3-ea6a57e04a89?resourceVersion=id%3A34"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 17,
+        "drupal_internal__vid": 34,
+        "langcode": "en",
+        "revision_timestamp": "2025-01-08T12:56:13+00:00",
+        "status": true,
+        "title": "Skip the spirits with delicious mocktails",
+        "created": "2025-01-08T12:56:13+00:00",
+        "changed": "2025-01-08T12:56:13+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": null,
+        "moderation_state": "published",
+        "path": {
+          "alias": "/articles/skip-the-spirits-with-delicious-mocktails",
+          "pid": 99,
+          "langcode": "en"
+        },
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": {
+          "value": "<p>Having a cocktail party? Then why not serve up something just as special for those who don't drink alcohol but do want to join in on all the fun? After all, what cocktail party is complete without those incredible looking glasses of mixed fruits, bright colors and of course, the little umbrellas? Do your bit for the environment by ditching the plastic straws and get hold of some great looking alternatives made out of glass, metal, or even bamboo. Don't forget the classic cocktail glasses and cool tumblers to really bring these recipes to life.\n</p>\n<p>\nSo, grab the cocktail mixer, skip the spirits, and shake up these deliciously refreshing mocktails that won't leave you or your guests, short on flavor or style.\n</p>\n<h2>Mango-licious</h2>\n<p>This delicious drink has a sophisticated taste that is ideal for adults and the color is perfect for a late summer BBQ.</p>\n<h3>Instructions:</h3>\n<p>Give a few slices of cucumber and a little honey a good shake in a cocktail shaker. Add a spirit measure of mango puree and the juice of one lime. Add some ice and shake for all you're worth. Using a strainer, pour into a fancy glass and top with ginger beer. A few slices of lime and you're ready to go.</p>\n<h2>Mocky Mojito</h2>\n<p>There's nothing quite like a Mojito on a warm day and this version is ideal for a relaxing end of the day moment of bliss in the garden.</p>\n<h3>Instructions:</h3>\n<p>Muddle sugar, a squeeze of lime, and mint leaves in a tall glass, then add a few chunks of ice, top with the juice of a blood orange (for the sunset effect), and add a splash of soda water. Add a few sprigs of mint for an authentic look.</p>\n<h2>Sinless Strawberry Martini</h2>\n<p>Strawberries add a beautiful rich red to this mocktail, while the ginger gives it a little kick. Serve in a proper martini glass, but maybe avoid the olives.</p>\n<h3>Instructions:</h3>\n<p>Muddle a strawberry with a dash a ginger beer and some sugar syrup in a cocktail shaker. Add a capful of elderflower cordial and a few mint leaves. Throw in a slice of orange and lemon and shake with ice. Strain into your glass and enjoy the sweet strawberry flavor.</p>\n<h2>Coconut Queen</h2>\n<p>Crazy about coconuts? Then you'll love the refreshing taste of this coconut based mocktail. The flavors give a hint of the tropical, while the look is grown-up sophistication.</p>\n<h3>Instructions:</h3>\n<p>Add sliced cucumbers, the juice of a lime or two, and some mint leaves to a pitcher of coconut water and leave to chill and infuse for a few hours in the fridge. You can also add some sugar if you fancy this sweeter. Serve poured into glasses full of ice with sliced cucumber and mint leaves. Simple and beautiful.</p>\n",
+          "format": "basic_html",
+          "processed": "<p>Having a cocktail party? Then why not serve up something just as special for those who don't drink alcohol but do want to join in on all the fun? After all, what cocktail party is complete without those incredible looking glasses of mixed fruits, bright colors and of course, the little umbrellas? Do your bit for the environment by ditching the plastic straws and get hold of some great looking alternatives made out of glass, metal, or even bamboo. Don't forget the classic cocktail glasses and cool tumblers to really bring these recipes to life.\n</p>\n<p>\nSo, grab the cocktail mixer, skip the spirits, and shake up these deliciously refreshing mocktails that won't leave you or your guests, short on flavor or style.\n</p>\n<h2>Mango-licious</h2>\n<p>This delicious drink has a sophisticated taste that is ideal for adults and the color is perfect for a late summer BBQ.</p>\n<h3>Instructions:</h3>\n<p>Give a few slices of cucumber and a little honey a good shake in a cocktail shaker. Add a spirit measure of mango puree and the juice of one lime. Add some ice and shake for all you're worth. Using a strainer, pour into a fancy glass and top with ginger beer. A few slices of lime and you're ready to go.</p>\n<h2>Mocky Mojito</h2>\n<p>There's nothing quite like a Mojito on a warm day and this version is ideal for a relaxing end of the day moment of bliss in the garden.</p>\n<h3>Instructions:</h3>\n<p>Muddle sugar, a squeeze of lime, and mint leaves in a tall glass, then add a few chunks of ice, top with the juice of a blood orange (for the sunset effect), and add a splash of soda water. Add a few sprigs of mint for an authentic look.</p>\n<h2>Sinless Strawberry Martini</h2>\n<p>Strawberries add a beautiful rich red to this mocktail, while the ginger gives it a little kick. Serve in a proper martini glass, but maybe avoid the olives.</p>\n<h3>Instructions:</h3>\n<p>Muddle a strawberry with a dash a ginger beer and some sugar syrup in a cocktail shaker. Add a capful of elderflower cordial and a few mint leaves. Throw in a slice of orange and lemon and shake with ice. Strain into your glass and enjoy the sweet strawberry flavor.</p>\n<h2>Coconut Queen</h2>\n<p>Crazy about coconuts? Then you'll love the refreshing taste of this coconut based mocktail. The flavors give a hint of the tropical, while the look is grown-up sophistication.</p>\n<h3>Instructions:</h3>\n<p>Add sliced cucumbers, the juice of a lime or two, and some mint leaves to a pitcher of coconut water and leave to chill and infuse for a few hours in the fridge. You can also add some sugar if you fancy this sweeter. Serve poured into glasses full of ice with sliced cucumber and mint leaves. Simple and beautiful.</p>\n",
+          "summary": null
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "060d1142-7036-4041-bb1f-60ca53bd0db7",
+            "meta": {
+              "drupal_internal__target_id": "article"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/14650b8c-2af3-4e77-88f3-ea6a57e04a89/node_type?resourceVersion=id%3A34"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/14650b8c-2af3-4e77-88f3-ea6a57e04a89/relationships/node_type?resourceVersion=id%3A34"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "9f52ef02-9de8-4ac4-8207-32aa85fef468",
+            "meta": {
+              "drupal_internal__target_id": 8
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/14650b8c-2af3-4e77-88f3-ea6a57e04a89/revision_uid?resourceVersion=id%3A34"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/14650b8c-2af3-4e77-88f3-ea6a57e04a89/relationships/revision_uid?resourceVersion=id%3A34"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "9f52ef02-9de8-4ac4-8207-32aa85fef468",
+            "meta": {
+              "drupal_internal__target_id": 8
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/14650b8c-2af3-4e77-88f3-ea6a57e04a89/uid?resourceVersion=id%3A34"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/14650b8c-2af3-4e77-88f3-ea6a57e04a89/relationships/uid?resourceVersion=id%3A34"
+            }
+          }
+        },
+        "field_media_image": {
+          "data": {
+            "type": "media--image",
+            "id": "e402c8d3-12d5-4454-9868-06faa18eae37",
+            "meta": {
+              "drupal_internal__target_id": 16
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/14650b8c-2af3-4e77-88f3-ea6a57e04a89/field_media_image?resourceVersion=id%3A34"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/14650b8c-2af3-4e77-88f3-ea6a57e04a89/relationships/field_media_image?resourceVersion=id%3A34"
+            }
+          }
+        },
+        "field_tags": {
+          "data": [
+            {
+              "type": "taxonomy_term--tags",
+              "id": "03a09a93-bf1b-4e63-ae30-62a2803b568f",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            },
+            {
+              "type": "taxonomy_term--tags",
+              "id": "60ac9f6a-3ef7-4a62-8b54-1177dafa8f62",
+              "meta": {
+                "drupal_internal__target_id": 12
+              }
+            },
+            {
+              "type": "taxonomy_term--tags",
+              "id": "b31472dc-05e7-4885-8e2d-3a42c184bf45",
+              "meta": {
+                "drupal_internal__target_id": 20
+              }
+            },
+            {
+              "type": "taxonomy_term--tags",
+              "id": "28fd2424-b042-45a7-a551-7e8268673d3b",
+              "meta": {
+                "drupal_internal__target_id": 8
+              }
+            },
+            {
+              "type": "taxonomy_term--tags",
+              "id": "e1fdeb9b-29af-4c60-9f74-c26743404fe9",
+              "meta": {
+                "drupal_internal__target_id": 11
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/14650b8c-2af3-4e77-88f3-ea6a57e04a89/field_tags?resourceVersion=id%3A34"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/node/article/14650b8c-2af3-4e77-88f3-ea6a57e04a89/relationships/field_tags?resourceVersion=id%3A34"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "user--user",
+      "id": "3a577e34-2a6a-4ed1-acb3-de923de6a313",
+      "links": {
+        "self": {
+          "href": "http://localhost:8080/en/jsonapi/user/user/3a577e34-2a6a-4ed1-acb3-de923de6a313"
+        }
+      },
+      "attributes": {
+        "display_name": "Umami"
+      }
+    },
+    {
+      "type": "user--user",
+      "id": "9f52ef02-9de8-4ac4-8207-32aa85fef468",
+      "links": {
+        "self": {
+          "href": "http://localhost:8080/en/jsonapi/user/user/9f52ef02-9de8-4ac4-8207-32aa85fef468"
+        }
+      },
+      "attributes": {
+        "display_name": "Megan Collins Quinlan"
+      }
+    },
+    {
+      "type": "media--image",
+      "id": "dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25",
+      "links": {
+        "self": {
+          "href": "http://localhost:8080/en/jsonapi/media/image/dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25?resourceVersion=id%3A13"
+        }
+      },
+      "attributes": {
+        "drupal_internal__mid": 13,
+        "drupal_internal__vid": 13,
+        "langcode": "en",
+        "revision_created": "2025-01-08T12:56:13+00:00",
+        "status": true,
+        "name": "Mushrooms Umami",
+        "created": "2025-01-08T12:56:13+00:00",
+        "changed": "2025-01-08T12:56:13+00:00",
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "content_translation_source": "und",
+        "content_translation_outdated": false
+      },
+      "relationships": {
+        "bundle": {
+          "data": {
+            "type": "media_type--media_type",
+            "id": "7857f44f-ae5b-42cf-b35d-cd7d900423eb",
+            "meta": {
+              "drupal_internal__target_id": "image"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25/bundle?resourceVersion=id%3A13"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25/relationships/bundle?resourceVersion=id%3A13"
+            }
+          }
+        },
+        "revision_user": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25/revision_user?resourceVersion=id%3A13"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25/relationships/revision_user?resourceVersion=id%3A13"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "b439a81d-9706-4a7e-b019-66ae9524d928",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25/uid?resourceVersion=id%3A13"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25/relationships/uid?resourceVersion=id%3A13"
+            }
+          }
+        },
+        "thumbnail": {
+          "data": {
+            "type": "file--file",
+            "id": "ce1e9bd5-da7e-4f53-8054-2c61c3a04cf7",
+            "meta": {
+              "alt": "A delightful selection of mushroom varieties laid out on a simple wooden plate",
+              "title": null,
+              "width": 768,
+              "height": 512,
+              "drupal_internal__target_id": 25
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25/thumbnail?resourceVersion=id%3A13"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25/relationships/thumbnail?resourceVersion=id%3A13"
+            }
+          }
+        },
+        "field_media_image": {
+          "data": {
+            "type": "file--file",
+            "id": "ce1e9bd5-da7e-4f53-8054-2c61c3a04cf7",
+            "meta": {
+              "alt": "A delightful selection of mushroom varieties laid out on a simple wooden plate",
+              "title": null,
+              "width": 768,
+              "height": 512,
+              "drupal_internal__target_id": 25
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25/field_media_image?resourceVersion=id%3A13"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/dd4fe495-ef6d-47ae-a056-d5a2f4bb6d25/relationships/field_media_image?resourceVersion=id%3A13"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "media--image",
+      "id": "e402c8d3-12d5-4454-9868-06faa18eae37",
+      "links": {
+        "self": {
+          "href": "http://localhost:8080/en/jsonapi/media/image/e402c8d3-12d5-4454-9868-06faa18eae37?resourceVersion=id%3A16"
+        }
+      },
+      "attributes": {
+        "drupal_internal__mid": 16,
+        "drupal_internal__vid": 16,
+        "langcode": "en",
+        "revision_created": "2025-01-08T12:56:13+00:00",
+        "status": true,
+        "name": "Mojito Mocktail",
+        "created": "2025-01-08T12:56:13+00:00",
+        "changed": "2025-01-08T12:56:13+00:00",
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "content_translation_source": "und",
+        "content_translation_outdated": false
+      },
+      "relationships": {
+        "bundle": {
+          "data": {
+            "type": "media_type--media_type",
+            "id": "7857f44f-ae5b-42cf-b35d-cd7d900423eb",
+            "meta": {
+              "drupal_internal__target_id": "image"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/e402c8d3-12d5-4454-9868-06faa18eae37/bundle?resourceVersion=id%3A16"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/e402c8d3-12d5-4454-9868-06faa18eae37/relationships/bundle?resourceVersion=id%3A16"
+            }
+          }
+        },
+        "revision_user": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/e402c8d3-12d5-4454-9868-06faa18eae37/revision_user?resourceVersion=id%3A16"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/e402c8d3-12d5-4454-9868-06faa18eae37/relationships/revision_user?resourceVersion=id%3A16"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "b439a81d-9706-4a7e-b019-66ae9524d928",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/e402c8d3-12d5-4454-9868-06faa18eae37/uid?resourceVersion=id%3A16"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/e402c8d3-12d5-4454-9868-06faa18eae37/relationships/uid?resourceVersion=id%3A16"
+            }
+          }
+        },
+        "thumbnail": {
+          "data": {
+            "type": "file--file",
+            "id": "1f1e44eb-0e89-4e46-841a-035f75c79f43",
+            "meta": {
+              "alt": "Fresh mojito mocktail with garnish of mint leaves, ice, and sliced lime",
+              "title": null,
+              "width": 768,
+              "height": 512,
+              "drupal_internal__target_id": 31
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/e402c8d3-12d5-4454-9868-06faa18eae37/thumbnail?resourceVersion=id%3A16"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/e402c8d3-12d5-4454-9868-06faa18eae37/relationships/thumbnail?resourceVersion=id%3A16"
+            }
+          }
+        },
+        "field_media_image": {
+          "data": {
+            "type": "file--file",
+            "id": "1f1e44eb-0e89-4e46-841a-035f75c79f43",
+            "meta": {
+              "alt": "Fresh mojito mocktail with garnish of mint leaves, ice, and sliced lime",
+              "title": null,
+              "width": 768,
+              "height": 512,
+              "drupal_internal__target_id": 31
+            }
+          },
+          "links": {
+            "related": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/e402c8d3-12d5-4454-9868-06faa18eae37/field_media_image?resourceVersion=id%3A16"
+            },
+            "self": {
+              "href": "http://localhost:8080/en/jsonapi/media/image/e402c8d3-12d5-4454-9868-06faa18eae37/relationships/field_media_image?resourceVersion=id%3A16"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "user--user",
+      "id": "b439a81d-9706-4a7e-b019-66ae9524d928",
+      "links": {
+        "self": {
+          "href": "http://localhost:8080/en/jsonapi/user/user/b439a81d-9706-4a7e-b019-66ae9524d928"
+        }
+      },
+      "attributes": {
+        "display_name": "Anonymous"
+      }
+    },
+    {
+      "type": "media_type--media_type",
+      "id": "7857f44f-ae5b-42cf-b35d-cd7d900423eb",
+      "links": {
+        "self": {
+          "href": "http://localhost:8080/en/jsonapi/media_type/media_type/7857f44f-ae5b-42cf-b35d-cd7d900423eb"
+        }
+      },
+      "attributes": {
+        "label": "Image"
+      }
+    }
+  ],
+  "links": {
+    "next": {
+      "href": "http://localhost:8080/jsonapi/node/article?page%5Boffset%5D=2&page%5Blimit%5D=2&include=uid%2Cfield_media_image.uid%2Cfield_media_image.bundle"
+    },
+    "self": {
+      "href": "http://localhost:8080/jsonapi/node/article?include=uid%2Cfield_media_image.uid%2Cfield_media_image.bundle&page%5Blimit%5D=2"
+    }
+  }
+}
